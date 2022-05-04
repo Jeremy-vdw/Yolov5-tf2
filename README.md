@@ -6,7 +6,7 @@ Yolov5 Tensorflow 2 detection implementation (no training). This project uses a 
 ## Features 
 
 - Detecting objects in an image folder, an image, a video or webcam.
-- Able to use custom trained <code>saved_model</code>'s (only (640,640) models)
+- Able to use custom trained <code>saved_model</code>'s [(only size 640 models)](https://github.com/ultralytics/yolov5#pretrained-checkpoints)
 - Drawing bounding boxes in images.
 - Usage of non max suppression.
 - Automatically write images with bounding boxes (no videos yet).
@@ -25,10 +25,10 @@ $ python detect.py --source './data/images/' --prob 0.4
 ```
 
 ### Parameters
-- <code>--saved_model</code> path to saved_model. yolov5s as default
-- <code>--labels</code> path to labels (.names) file. coco.names as default
+- <code>--saved_model</code> path to saved_model.<code>yolov5s</code> as default
+- <code>--labels</code> path to labels (.names) file. <code>data/coco.names</code> as default
 - <code>--source</code> path to input image/video/image_folder. 
-- <code>--prob</code> minimum probability to eliminate weak predictions. 0.7 as default
-- <code>--thres</code> setting threshold for filtering weak bounding boxes with NMS. 0.3 as default
-- <code>--visualize</code> to show bounding boxes. True as default.
+- <code>--prob</code> minimum probability to eliminate weak predictions. <code>0.7</code> as default
+- <code>--thres</code> setting threshold for filtering weak bounding boxes with NMS. <code>0.3</code> as default
+- <code>--visualize</code> to show bounding boxes. <code>True</code> as default.
 
