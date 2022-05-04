@@ -166,7 +166,7 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--saved_model', type=str, help='location where saved model is stored.')
     parser.add_argument('--labels', type=str, default='./data/coco.names', help='location where dataset.names is stored.')
-    parser.add_argument('--source', type=str, default='./data/images/', help='location where images or video is stored. Use 0 for webcam.')
+    parser.add_argument('--source', type=str, default='0', help='location where images or video is stored. Use 0 for webcam.')
     parser.add_argument('--prob', type=float, default=0.7, help='minimum probability to eliminate weak predictions.')
     parser.add_argument('--thres', type=float, default=0.3, help='setting threshold for filtering weak bounding boxes with NMS.')
     parser.add_argument('--visualize', type=bool, default=True, help='draw bounding boxes or not.')

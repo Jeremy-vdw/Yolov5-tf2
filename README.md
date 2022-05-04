@@ -27,7 +27,7 @@ $ python detect.py --source './data/images/' --prob 0.4
 ### Parameters
 - <code>--saved_model</code> path to saved_model.<code>yolov5s</code> as default
 - <code>--labels</code> path to labels (.names) file. <code>data/coco.names</code> as default
-- <code>--source</code> path to input image/video/image_folder. 
+- <code>--source</code> path to input image/video or image_folder. <code>0</code> for webcam as default.
 - <code>--prob</code> minimum probability to eliminate weak predictions. <code>0.7</code> as default
 - <code>--thres</code> setting threshold for filtering weak bounding boxes with NMS. <code>0.3</code> as default
 - <code>--visualize</code> to show bounding boxes. <code>True</code> as default.
