@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# hide saved_models and detection results
+detections/
+data/yolov5s_saved_model
