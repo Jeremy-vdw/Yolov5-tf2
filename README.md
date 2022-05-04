@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 ### Run example
 ```
-$ python detect.py --'./data/images/' --prob 0.4
+$ python detect.py --source './data/images/' --prob 0.4
 ```
 
 ### Parameters
